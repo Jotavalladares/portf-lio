@@ -21,9 +21,9 @@ header{
     height: 30%;
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: black;
     justify-content: space-evenly;
-    color: black;
+    color: white;
 }
 
 header section{
@@ -37,8 +37,8 @@ header section{
 
 header img{
     width: 300px;
-    border: 2px solid white;
-    border-radius: 50%;
+    border: 2px solid black;
+
 }
 
 main{
@@ -55,10 +55,7 @@ main{
     justify-content:center;
 }
 
-.sobre p{
-    height: 15%;
-    width: 40%;
-}
+
 
 .imagem
 {
@@ -72,17 +69,10 @@ main{
     border: 2px solid black;
     width: 300px;
 }
-
-.mais ul{
-    list-style-type: none;
+ 
+.mais{
+    background-color: gray;
 }
-
-.mais ul li{
-    display: flex;
-    align-items: center;
-    width: 50%;
-}
-
 .git, .linkedin{
     width: 50px;
     height: 50px;
